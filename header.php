@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/sub-header.css">
   <link rel="stylesheet" href="./css/sub-layout.css">
+  <link rel="stylesheet" href="./css/about.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://kit.fontawesome.com/d5ea35b76b.js" crossorigin="anonymous"></script>
   <script src="./js/window.js"></script>

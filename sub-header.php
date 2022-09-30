@@ -49,5 +49,12 @@
   <nav class="snb">
   <?php include 'menu.php' ?>
   </nav>
+
+  
 </aside>
 <main class="sub-content">
+  <ul class="bread-crumb">
+    <li><i class="fa-solid fa-house"></i></li>
+    <li class="menu-title">dep1</li>
+    <li class="page-title">dep2</li>
+  </ul>

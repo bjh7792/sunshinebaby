@@ -1,3 +1,4 @@
 <?php include 'sub-header.php' ?>
-갤러리
+<h2 class="sub-title" ><span data-title="갤러리">갤러리</span></h2>
+
 <?php include 'sub-footer.php' ?>

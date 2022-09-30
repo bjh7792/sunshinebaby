@@ -12,8 +12,26 @@
   }
   .sub-content {
     position: relative;
-  }
+    .bread-crumb {
+      top: 7px;
+      display: flex;
+      position: absolute;
+      right: 0;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      color: var(--sub-color);
+      align-items: center;
+      li {
+        @include icon-font(after, "\f054");
+        margin: 0 3px;
+        &:last-child::after {
+          display: none;
+        }
+      }
+    } //bread
+  } //content
 }
+
 /* ---------------------------------------- */
 @media screen and (min-width: 1000px) {
   .sub-wrap {
@@ -45,6 +63,11 @@
                   padding: 8px;
                   border-bottom: 1px solid #ccc;
                   font-weight: 600;
+                  &.active {
+                    background-color: var(--main-color);
+                    color: #fff;
+                    @include icon-font(before, "\f00c");
+                  }
                 }
               }
             }
@@ -55,7 +78,6 @@
     .sub-content {
       width: 72%;
       min-height: 400px;
-      background-color: #ccc;
     }
   }
 } //lg
@@ -96,6 +118,10 @@
                   overflow: hidden;
                   text-overflow: ellipsis;
                   color: #fff;
+                  &.active {
+                    background-color: var(--main-color);
+                    color: #fff;
+                  }
                 }
               }
             }
@@ -106,7 +132,28 @@
     .sub-content {
       @include center-width;
       padding: 30px 0;
-      background-color: #ccc;
+      .bread-crumb {
+        display: none;
+      }
     }
   }
 } //sm
+/* -------------------------------------------- */
+.sub-title {
+  padding-bottom: 17px;
+  margin-bottom: 30px;
+  border-bottom:1px solid var(--main-color) ;
+  span {
+    position: relative;
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    &::before {
+      content: attr(data-title);
+      position: absolute;
+      height: 50%;
+      overflow: hidden;
+      color: var(--main-color);
+    }
+  }
+}

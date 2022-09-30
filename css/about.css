@@ -1,0 +1,37 @@
+.page1-1 {
+  text-align: center;
+}
+.page1-1 > p {
+  margin: 20px auto;
+}
+.page1-1 > p:nth-child(1) {
+  width: 550px;
+}
+.page1-1 > p:nth-child(2) {
+  width: 650px;
+}
+.page1-1 > p:nth-child(3) {
+  width: 550px;
+}
+.page1-1 > p:nth-child(4) {
+  width: 650px;
+}
+.page1-1 > p:nth-child(5) {
+  width: 800px;
+}
+.page1-1 > .emphasis {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.page1-1 > .emphasis > em {
+  color: var(--main-color);
+}
+.page1-1 > figure {
+  display: flex;
+}
+.page1-1 > figure img {
+  width: 100%;
+}
+.page1-1 > figure .aboutimg1 {
+  margin-right: 2px;
+}/*# sourceMappingURL=about.css.map */
