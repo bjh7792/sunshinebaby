@@ -1,0 +1,21 @@
+:root{
+   --main-color:#ed1c24;
+   --sub-color:#3e3e3e;
+   
+}
+ @media screen and (min-width:1000px){
+  body{
+    padding-top: 130px;
+  }
+}
+@media screen and (max-width:1000px){
+  body{
+    padding-top: 100px;
+  }
+}
+body{
+  font-family:'Montserrat','Noto Sans KR', sans-serif;
+  font-size: 13px;
+  color:#5e5e5e;
+}
+ 

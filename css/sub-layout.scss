@@ -1,0 +1,112 @@
+@import "mixin";
+.sub-wrap {
+  /*  @include center-width; */
+  .sidebar {
+    .snb {
+      > ul {
+        > li {
+          display: none;
+        }
+      }
+    }
+  }
+  .sub-content {
+    position: relative;
+  }
+}
+/* ---------------------------------------- */
+@media screen and (min-width: 1000px) {
+  .sub-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0;
+    @include center-width;
+    .sidebar {
+      position: sticky;
+      top: 135px;
+      width: 25%;
+      .snb {
+        > ul {
+          > li {
+            > a {
+              display: block;
+              font-size: 1.8em;
+              font-weight: bold;
+              color: var(--sub-color);
+              text-transform: uppercase;
+              margin-bottom: 10px;
+            }
+            > ul {
+              border-top: 2px solid #ccc;
+              > li {
+                > a {
+                  display: block;
+                  padding: 8px;
+                  border-bottom: 1px solid #ccc;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .sub-content {
+      width: 72%;
+      min-height: 400px;
+      background-color: #ccc;
+    }
+  }
+} //lg
+
+@media screen and (max-width: 1000px) {
+  .sub-wrap {
+    .sidebar {
+      z-index: 1;
+      position: sticky;
+      top: 65px;
+      height: 40px;
+      .snb {
+        height: inherit;
+        background-color: #ddd;
+        > ul {
+          > li {
+            > a {
+              display: none;
+            }
+            > ul {
+              height: 40px;
+              display: flex;
+              justify-content: center;
+
+              > li {
+                flex: 1;
+                border-right: 1px solid #666;
+                max-width: 150px;
+                > a {
+                  display: block;
+                  height: 100%;
+                  padding: 0 10px;
+                  text-align: center;
+                  line-height: 40px;
+                  font-weight: 600;
+                  white-space: nowrap;
+                  background-color: var(--sub-color);
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .sub-content {
+      @include center-width;
+      padding: 30px 0;
+      background-color: #ccc;
+    }
+  }
+} //sm

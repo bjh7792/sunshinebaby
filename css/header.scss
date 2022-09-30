@@ -1,0 +1,182 @@
+@import "mixin";
+header {
+  z-index: 100;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.15);
+  border: 1px soid #eee;
+  background-color: #fff;
+  .header-top {
+    width: 100%;
+    height: 30px;
+    background-color: var(--sub-color);
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      @include center-width;
+      height: inherit;
+      li {
+        &::after {
+          content: "|";
+          margin: 0 5px;
+        }
+        &:last-child::after {
+          content: none;
+        }
+        a {
+          line-height: 30px;
+          font-weight: 500;
+          color: #bbb;
+          &:hover {
+            color: #ddd;
+          }
+        }
+      }
+    }
+  }
+  .header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100% - 30px);
+    @include center-width;
+    h1 {
+      height: 70%;
+      a {
+        img {
+          height: 100%;
+        } //img
+      } //a
+    } //h1
+  } //bottom
+} //header
+.gnb .sns {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  header {
+    height: 130px;
+    .header-bottom {
+      .gnb-lg {
+        height: 45px;
+        > ul { display: flex;
+          height: inherit;
+          > li {
+            height: inherit;
+            > a {
+              display: block;
+              height: inherit;
+              padding: 0 35px;
+              line-height: 45px;
+              font-size: 1.3em;
+              font-weight: 600;
+              text-transform: uppercase;
+              &:hover {
+                color: #ddd;
+              }
+            } //a
+            > ul {
+              > li {
+                > a {
+                  display: block;
+                  height: 40px;
+                  line-height: 40px;
+                  background-color: var(--sub-color);
+                  color: #fff;
+                  text-align: center;
+                  transition: all 0.3s;
+                  border-bottom: 1px dotted #ddd;
+                  &:hover {
+                    background-color: var(--main-color);
+                  }
+                }
+              }
+            }
+          } //li
+        } //ul
+      }
+      .gnb-sm,
+      .gnb-lg > ul > li > ul,
+      .mbtn {
+        display: none;
+      }
+    } //headerbottom
+  } //header
+} //lg
+@media screen and (max-width: 1000px) {
+  header {
+    height: 100px;
+    .mbtn {
+      display: inline-block;
+      vertical-align: middle;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 1.3em;
+      color: #fff;
+      background-color: var(--sub-color);
+      text-align: center;
+      border-radius: 50%;
+      &:hover {
+        background-color: var(--main-color);
+      }
+      .btn2 {
+        display: none;
+      }
+      &.active {
+        .btn2 {
+          display: block;
+        }
+        .btn1 {
+          display: none;
+        }
+      }
+    } //mbtn
+    .gnb-lg,
+    .gnb-sm {
+      display: none;
+    }
+    .gnb-sm {
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      left: 0;
+      > ul {
+        > li {
+          > a {
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            background-color: var(--sub-color);
+            color: #fff;
+            text-transform: uppercase;
+            padding: 0 10px;
+            font-size: 1.15em;
+            font-weight: 500;
+            border-bottom: 1px solid #ccc;
+            transform: all 0.3s;
+            &.active {
+              background-color: var(--main-color);
+              border-bottom: 1px solid #fff;
+            }
+          }
+          > ul {
+            display: none;
+            > li {
+              > a {
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                background-color: #eee;
+                padding: 0 20px;
+                font-size: 1.15em;
+                border-bottom: 1px dotted #ccc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} //sm
