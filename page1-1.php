@@ -10,9 +10,9 @@
     고개들은 인터넷에서 정보를 찾고 지식을 얻으며 합리적인 소비를
     할 수 있게 되었고 기업들은 홈페이지를 이용하여 효율적인 마케팅을 할 수 있게 되었습니다.
   </p>
-  <figure>
-    <img class="aboutimg1" src="./img/./sub/./about01.png" alt="">
-    <img src="./img/./sub/./about02.png" alt="">
+  <figure class="aboutimg">
+    <img src="./img/./sub1/./sub01.jpg" alt="">
+    <img src="./img/./sub1/./sub02.jpg" alt="">
   </figure>
   <p class="emphasis">
     그만큼 홈페이지는 기업활동의<em> 중요한 요소가 되었고 매출과 이미지 향상의 가장 영향력</em> 이있는 매체가 되었습니다.

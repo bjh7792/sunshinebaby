@@ -1,0 +1,40 @@
+.page2-1 {
+  > p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 2px;
+  }
+  figure {
+    margin: 20px auto;
+    @media screen and (min-width: 800px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      figcaption {
+        width: 55%;
+      }
+      div {
+        padding: 5px;
+        width: 30%;
+        background: #eee;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(#000, 0.2);
+      }
+    } //figure lg
+    @media screen and (max-width: 800px) {
+      figcaption {
+        margin-bottom: 20px;
+        p{
+          text-align: center;
+        }
+      }
+    } //figure sm
+    div {
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    } //div
+  } //figure
+} //secction

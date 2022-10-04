@@ -1,37 +1,98 @@
+.emphasis {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.emphasis > em {
+  color: var(--main-color);
+}
+
 .page1-1 {
   text-align: center;
 }
 .page1-1 > p {
   margin: 20px auto;
 }
-.page1-1 > p:nth-child(1) {
-  width: 550px;
+.page1-1 > p:nth-of-type(1) {
+  max-width: 550px;
 }
-.page1-1 > p:nth-child(2) {
-  width: 650px;
+.page1-1 > p:nth-of-type(2) {
+  max-width: 650px;
 }
-.page1-1 > p:nth-child(3) {
-  width: 550px;
+.page1-1 > p:nth-of-type(3) {
+  max-width: 550px;
 }
-.page1-1 > p:nth-child(4) {
-  width: 650px;
+.page1-1 > p:nth-of-type(4) {
+  max-width: 650px;
 }
-.page1-1 > p:nth-child(5) {
-  width: 800px;
-}
-.page1-1 > .emphasis {
-  font-weight: 600;
-  font-size: 1.5em;
-}
-.page1-1 > .emphasis > em {
-  color: var(--main-color);
+.page1-1 > p:nth-of-type(5) {
+  max-width: 800px;
 }
 .page1-1 > figure {
-  display: flex;
+  border: 3px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.page1-1 > figure img {
+@media screen and (min-width: 900px) {
+  .aboutimg {
+    display: flex;
+  }
+  .aboutimg > img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .aboutimg {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .aboutimg > img {
+    width: 100%;
+  }
+}
+/* ----------------------------------------------------------------------------- */
+.page1-2 > iframe {
+  display: block;
+  margin: 0 auto;
   width: 100%;
+  max-width: 800px;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 3px;
+  border: 2px solid #ccc;
+  padding: 3px;
+  background-color: #eee;
 }
-.page1-1 > figure .aboutimg1 {
-  margin-right: 2px;
+.page1-2 > dl {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+}
+.page1-2 > dl > dt,
+.page1-2 > dl dd {
+  padding: 7px;
+  box-sizing: border-box;
+  margin: 5px 0;
+}
+.page1-2 > dl dt {
+  font-weight: 600;
+  background-color: var(--main-color);
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 800px) {
+  .page1-2 > dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .page1-2 > dl > dt {
+    width: 30%;
+  }
+  .page1-2 > dl > dd {
+    width: 65%;
+  }
 }/*# sourceMappingURL=about.css.map */

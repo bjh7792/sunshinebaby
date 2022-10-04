@@ -1,0 +1,40 @@
+.page2-1 > p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 2px;
+}
+.page2-1 figure {
+  margin: 20px auto;
+}
+@media screen and (min-width: 800px) {
+  .page2-1 figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .page2-1 figure figcaption {
+    width: 55%;
+  }
+  .page2-1 figure div {
+    padding: 5px;
+    width: 30%;
+    background: #eee;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
+@media screen and (max-width: 800px) {
+  .page2-1 figure figcaption {
+    margin-bottom: 20px;
+  }
+  .page2-1 figure figcaption p {
+    text-align: center;
+  }
+}
+.page2-1 figure div {
+  overflow: hidden;
+}
+.page2-1 figure div img {
+  width: 100%;
+}/*# sourceMappingURL=business.css.map */
