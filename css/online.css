@@ -1,0 +1,53 @@
+.page4-1 form fieldset div {
+  padding: 6px 0;
+  border-bottom: 1px dotted #ccc;
+}
+.page4-1 form fieldset div label {
+  font-weight: bold;
+  color: var(--sub-color);
+}
+.page4-1 form fieldset div textarea {
+  height: 300px;
+}
+.page4-1 form fieldset div * {
+  padding: 6px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.submit-field {
+  margin-top: 30px;
+  text-align: center;
+}
+.submit-field button {
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
+  color: #fff;
+}
+.submit-field button[type=submit] {
+  background-color: var(--sub-color);
+}
+.submit-field button[type=reset] {
+  background-color: #999;
+}
+
+@media screen and (min-width: 800px) {
+  .page4-1 > form fieldset > div {
+    display: flex;
+    align-items: center;
+  }
+  .page4-1 > form fieldset > div > label {
+    width: 20%;
+    text-align: center;
+  }
+  .page4-1 > form fieldset > div *:last-child {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .page4-1 > form fieldset > div * {
+    display: block;
+    width: 100%;
+  }
+}/*# sourceMappingURL=online.css.map */

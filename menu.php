@@ -26,8 +26,8 @@
   <li class="menu5"><a href="./page5-1.php" class="menu5-1">customer</a>
     <ul>
       <li><a href="./page5-1.php" class="menu5-1">공지사항</a></li>
-      <li><a href="./page5-2.php" class="menu5-2">자유게시판</a></li>
       <li><a href="./page5-3.php" class="menu5-3">자주묻는질문</a></li>
+      <li><a href="./page5-2.php" class="menu5-2">자유게시판</a></li>
     </ul>
   </li>
 

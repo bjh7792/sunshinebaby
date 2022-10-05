@@ -1,0 +1,58 @@
+.page5-1 table {
+  width: 100%;
+}
+.page5-1 table tr > * {
+  padding: 7px;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.page5-1 table td:nth-child(2) {
+  text-align: left;
+}
+.page5-1 table th {
+  background-color: var(--sub-color);
+  color: #fff;
+  font-weight: 600;
+}
+.page5-1 table tr:nth-child(even) {
+  background-color: #eee;
+}
+.page5-1 table tr:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .page5-1 table tr > *:nth-child(3) ~ * {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .page5-1 table tr > *:nth-child(2) ~ * {
+    display: none;
+  }
+}
+.search {
+  padding: 10px 0;
+  margin-top: 30px;
+  text-align: center;
+}
+.search * {
+  height: 30px;
+  text-align: center;
+}
+.search > select > option {
+  text-align: center;
+}
+.search button {
+  background-color: var(--sub-color);
+  color: #fff;
+  transition: all 0.3s;
+  padding: 0 20px;
+}
+.search button:hover {
+  background-color: var(--main-color);
+}
+
+/* --------------------------------------------------------------------------- *//*# sourceMappingURL=notice.css.map */

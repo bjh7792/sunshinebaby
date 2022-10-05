@@ -1,6 +1,5 @@
 .page2-1 > p {
   text-align: center;
-  font-size: 1.1em;
   margin-bottom: 2px;
 }
 .page2-1 figure {
@@ -36,5 +35,19 @@
   overflow: hidden;
 }
 .page2-1 figure div img {
+  width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+.page2-2 p {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+.page2-2 div {
+  margin: 0 auto;
+}
+.page2-2 div img {
   width: 100%;
 }/*# sourceMappingURL=business.css.map */

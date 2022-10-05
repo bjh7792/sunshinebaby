@@ -1,7 +1,6 @@
 .page2-1 {
   > p {
     text-align: center;
-    font-size: 1.1em;
     margin-bottom: 2px;
   }
   figure {
@@ -38,3 +37,17 @@
     } //div
   } //figure
 } //secction
+/* ------------------------------------------------------------- */
+.page2-2{
+  p{margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 400px;
+  }
+  div{
+    margin: 0 auto;
+    img{
+      width: 100%;
+    }
+  }
+}

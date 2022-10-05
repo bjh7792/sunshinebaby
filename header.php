@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="./css/sub-layout.css">
   <link rel="stylesheet" href="./css/about.css">
   <link rel="stylesheet" href="./css/business.css">
+  <link rel="stylesheet" href="./css/online.css">
+  <link rel="stylesheet" href="./css/notice.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://kit.fontawesome.com/d5ea35b76b.js" crossorigin="anonymous"></script>
   <script src="./js/window.js"></script>
