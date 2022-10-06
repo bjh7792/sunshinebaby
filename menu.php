@@ -14,7 +14,10 @@
 
   <li class="menu3"><a href="./page3-1.php">gallery</a>
     <ul>
-      <li><a href="./page3-1.php" class="menu3-1">갤러리</a></li>
+      <li><a href="./page3-1.php" class="menu3-1">Flex</a></li>
+      <li><a href="./page3-2.php" class="menu3-2">Masonry</a></li>
+      <li><a href="./page3-3.php" class="menu3-3">Justify</a></li>
+      <li><a href="./page3-4.php" class="menu3-4">Istope</a></li>
     </ul>
   </li>
   <li class="menu4"><a href="./page4-1.php">online</a>

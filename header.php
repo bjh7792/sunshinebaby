@@ -20,12 +20,14 @@
   <link rel="stylesheet" href="./css/business.css">
   <link rel="stylesheet" href="./css/online.css">
   <link rel="stylesheet" href="./css/notice.css">
+  <link rel="stylesheet" href="./css/gallery.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://kit.fontawesome.com/d5ea35b76b.js" crossorigin="anonymous"></script>
   <script src="./js/window.js"></script>
   <script src="./js/responsive_carousel_horz.js"></script>
   <script src="./js/header.js"></script>
   <script src="./js/dummy.js"></script>
+  <script src="./js/gallery.js"></script>
 
 </head>
 
@@ -42,7 +44,7 @@
     <section class="header-bottom">
       <h1>
         <span class="hidden">로고</span>
-        <a href=""><img src="./img/./icon/./logo.gif" alt=""></a>
+        <a href="./index.php"><img src="./img/./icon/./logo.gif" alt=""></a>
       </h1>
 
       <div class="gnb gnb-lg">
