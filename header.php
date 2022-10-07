@@ -25,9 +25,10 @@
   <script src="https://kit.fontawesome.com/d5ea35b76b.js" crossorigin="anonymous"></script>
   <script src="./js/window.js"></script>
   <script src="./js/responsive_carousel_horz.js"></script>
-  <script src="./js/header.js"></script>
-  <script src="./js/dummy.js"></script>
-  <script src="./js/gallery.js"></script>
+  <script src="./js/jquery.justifiedGallery.min.js"></script>
+  <script defer src="./js/header.js"></script>
+  <script defer src="./js/dummy.js"></script>
+  <script defer src="./js/gallery.js"></script>
 
 </head>
 

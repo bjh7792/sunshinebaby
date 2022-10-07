@@ -136,4 +136,9 @@
 }
 .page3-2 > ul > li > a > figure > figcaption > p {
   color: #aaa;
+}
+
+/* --------------------------------------------------- */
+#page3-3-gallery a {
+  box-sizing: border-box;
 }/*# sourceMappingURL=gallery.css.map */
