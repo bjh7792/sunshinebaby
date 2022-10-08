@@ -8,7 +8,7 @@
       <img src="./img/./gallery/sub01.jpg" alt="">
     </a>
     <a href="#" title="your image">
-      <img src="./img/./gallery/sub12.jpg" alt="">
+      <img src="./img/./gallery/sub07.jpg" alt="">
     </a>
     <a href="#" title="your image">
       <img src="./img/./gallery/sub02.jpg" alt="">
@@ -29,7 +29,7 @@
       <img src="./img/./gallery/sub05.jpg" alt="">
     </a>
     <a href="#" title="your image">
-      <img src="./img/./gallery/sub07.jpg" alt="">
+      <img src="./img/./gallery/sub12.jpg" alt="">
     </a>
     <a href="#" title="your image">
       <img src="./img/./gallery/sub09.jpg" alt="">
