@@ -82,7 +82,14 @@
   </section>
 
   <section class="home-inner2">
-
+    <div class="wrap">
+      <section class="galler">
+        <h4>gallery</h4>
+      </section>
+      <section class="cust">
+        <h4>comu</h4>
+      </section>
+    </div>
   </section>
 
 

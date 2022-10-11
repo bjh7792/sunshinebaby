@@ -149,27 +149,20 @@
   }
 }
 /* ----------------------------------------------------- */
-.home-inner2 .quick {
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
+.home-inner2 {
+  padding-bottom: 40px;
 }
-.home-inner2 .quick img {
-  width: 100%;
-}
-.home-inner2 ul {
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
+.home-inner2 .wrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 40px 0;
 }
-.home-inner2 ul li {
-  border-radius: 50%;
-  box-sizing: border-box;
-  overflow: hidden;
-  border: 5px solid var(--main-color);
-}
-.home-inner2 ul li a img {
-  width: 100%;
+
+@media screen and (min-width: 1000px) {
+  .wrap .cust {
+    width: 25%;
+  }
+  .wrap .galler {
+    width: 65%;
+  }
 }/*# sourceMappingURL=index.css.map */

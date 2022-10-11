@@ -153,5 +153,22 @@
 }
 /* ----------------------------------------------------- */
 .home-inner2 {
-
+  padding-bottom: 40px;
+  .wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .wrap {
+    .cust {
+      width: 25%;
+    }
+    .galler {
+      width: 65%;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
 }
