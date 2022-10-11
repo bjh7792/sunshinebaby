@@ -28,7 +28,7 @@
     <li>
       <a href="#">
         <figure>
-          <img src="./img/gallery/./sub010.jpg" alt="">
+          <img src="./img/gallery/./sub070.jpg" alt="">
           <figcaption>
             <h4>Img Title</h4>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
@@ -50,7 +50,7 @@
     <li>
       <a href="#">
         <figure>
-          <img src="./img/gallery/./sub030.jpg" alt="">
+          <img src="./img/gallery/./sub050.jpg" alt="">
           <figcaption>
             <h4>Img Title</h4>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
@@ -72,7 +72,7 @@
     <li>
       <a href="#">
         <figure>
-          <img src="./img/gallery/./sub050.jpg" alt="">
+          <img src="./img/gallery/./sub030.jpg" alt="">
           <figcaption>
             <h4>Img Title</h4>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>

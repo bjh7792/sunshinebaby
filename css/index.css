@@ -1,0 +1,175 @@
+.home-visual {
+  height: 100%;
+  background-color: #000;
+}
+
+.home-inner1 {
+  padding: 30px 0;
+}
+.home-inner1 .quick {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.home-inner1 .quick img {
+  width: 100%;
+}
+.home-inner1 ul {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-inner1 ul li {
+  padding: 2%;
+  box-sizing: border-box;
+  transform: scale(0);
+  transition: transform 1s;
+}
+.home-inner1 ul li.active {
+  transform: scale(1);
+}
+.home-inner1 ul li:hover a figure div img {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.home-inner1 ul li:hover a figure div .line1 {
+  transition-delay: 0.6s;
+  width: 0;
+}
+.home-inner1 ul li:hover a figure div .line2 {
+  transition-delay: 0.4s;
+  height: 0;
+}
+.home-inner1 ul li:hover a figure div .line3 {
+  transition-delay: 0.2s;
+  width: 0;
+}
+.home-inner1 ul li:hover a figure div .line4 {
+  transition-delay: 0s;
+  height: 0;
+}
+.home-inner1 ul li a figure {
+  position: relative;
+}
+.home-inner1 ul li a figure::before {
+  content: "\f0d8";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.home-inner1 ul li a figure::before {
+  position: absolute;
+  font-size: 2em;
+  color: var(--sub-color);
+  line-height: 0;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+}
+.home-inner1 ul li a figure figcaption {
+  padding: 10px 0;
+}
+.home-inner1 ul li a figure figcaption h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: var(--sub-color);
+}
+.home-inner1 ul li a figure figcaption p::first-letter {
+  font: 1.2em;
+  font-weight: 600;
+}
+.home-inner1 ul li a figure div {
+  border: 5px solid var(--sub-color);
+  background: #000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.home-inner1 ul li a figure div span {
+  /* background: rgba(255, 255, 255, 0.7); */
+  transition: all 0.2s;
+  transition-timing-function: linear;
+}
+.home-inner1 ul li a figure div .line1 {
+  top: 30px;
+  left: 30px;
+  width: calc(100% - 60px);
+  height: 1px;
+  transition-delay: 0s;
+}
+.home-inner1 ul li a figure div .line2 {
+  top: 30px;
+  right: 30px;
+  width: 1px;
+  height: calc(100% - 60px);
+  transition-delay: 0.2s;
+}
+.home-inner1 ul li a figure div .line3 {
+  bottom: 30px;
+  right: 30px;
+  width: calc(100% - 60px);
+  height: 1px;
+  transition-delay: 0.4s;
+}
+.home-inner1 ul li a figure div .line4 {
+  bottom: 30px;
+  left: 30px;
+  width: 1px;
+  height: calc(100% - 60px);
+  transition-delay: 0.6s;
+}
+.home-inner1 ul li a figure div img {
+  width: 100%;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 1000px) {
+  .home-inner1 ul li,
+.home-inner2 ul li {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .home-inner1 ul li,
+.home-inner2 ul li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-inner1 ul li,
+.home-inner2 ul li {
+    width: 100%;
+  }
+}
+/* ----------------------------------------------------- */
+.home-inner2 .quick {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.home-inner2 .quick img {
+  width: 100%;
+}
+.home-inner2 ul {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-inner2 ul li {
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 5px solid var(--main-color);
+}
+.home-inner2 ul li a img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

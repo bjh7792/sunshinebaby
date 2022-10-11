@@ -23,15 +23,17 @@
   <link rel="stylesheet" href="./css/gallery.css">
   <link rel="stylesheet" href="./css/isotope.css">
   <link rel="stylesheet" href="./css/justifiedGallery-min.css">
+  <link rel="stylesheet" href="./css/index.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://kit.fontawesome.com/d5ea35b76b.js" crossorigin="anonymous"></script>
   <script src="./js/window.js"></script>
   <script src="./js/responsive_carousel_horz.js"></script>
   <script src="./js/jquery.justifiedGallery.min.js"></script>
-  <script scr="./js/jquery.isotope.js"></script>
+  <script src="./js/jquery.isotope.js"></script>
   <script defer src="./js/header.js"></script>
   <script defer src="./js/dummy.js"></script>
   <script defer src="./js/gallery.js"></script>
+  <script defer src="./js/home.js"></script>
 
 </head>
 
@@ -55,12 +57,12 @@
         <?php include 'menu.php' ?>
       </div>
 
-        <button class="mbtn">
-          <i class="btn1 fa-solid fa-bars"></i>
-          <i class="btn2 fa-solid fa-xmark"></i>
-        </button>
+      <button class="mbtn">
+        <i class="btn1 fa-solid fa-bars"></i>
+        <i class="btn2 fa-solid fa-xmark"></i>
+      </button>
 
-      
+
       <div class="gnb gnb-sm">
         <?php include 'menu.php' ?>
       </div>

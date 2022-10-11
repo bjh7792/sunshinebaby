@@ -71,6 +71,7 @@
   color: #fff;
   border-radius: 40%;
 }
+
 /* ------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
   .page3-1 > ul > li,
@@ -139,6 +140,96 @@
 }
 
 /* --------------------------------------------------- */
-#page3-3-gallery a {
+#page3-3-gallery > a {
   box-sizing: border-box;
+  transition: opacity 0.5s;
+}
+#page3-3-gallery > a:hover::after {
+  opacity: 0;
+}
+#page3-3-gallery > a img {
+  transition: scale 0.5s;
+}
+#page3-3-gallery > a:hover img {
+  transform: scale(1.2);
+}
+#page3-3-gallery > a::after {
+  content: "";
+  position: absolute;
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  left: 10px;
+  top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* -------------------------------------------------- */
+.page3-4 > ul li {
+  float: left;
+  box-sizing: border-box;
+  padding: 2px;
+}
+.page3-4 > ul li a {
+  display: block;
+  padding: 4px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+}
+.page3-4 > ul li a figure {
+  overflow: hidden;
+}
+.page3-4 > ul li a figure img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.page3-4 > ul li a figure img:hover {
+  transform: scale(1.2);
+}
+.page3-4 > ul li a figure figcaption {
+  padding: 10px;
+  background-color: #eee;
+}
+.page3-4 > ul li a figure figcaption h4 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #666;
+  color: var(--sub-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .page3-4 > ul > li {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .page3-4 > ul > li {
+    width: 33.3%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .page3-4 > ul > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .page3-4 > ul > li {
+    width: 100%;
+  }
+}
+.page3-4btn {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.page3-4btn button {
+  padding: 10px 20px;
+  border: 1px solid #666;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.page3-4btn button.active {
+  background-color: var(--main-color);
+  color: #fff;
+  border-color: var(--main-color);
 }/*# sourceMappingURL=gallery.css.map */
