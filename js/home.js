@@ -3,7 +3,7 @@ $(function(){
   var t
 
   function motion(){
-    $('.home-inner1 ul li , .home-inner2 section').each(function(){
+    $('.home-inner1 ul li').each(function(){
       t = $(this).offset().top
       if(scrt >= t - winh){
         $(this).addClass('active')

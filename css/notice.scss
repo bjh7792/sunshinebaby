@@ -1,3 +1,4 @@
+@import "mixin";
 .page5-1 {
   table {
     width: 100%;
@@ -60,3 +61,30 @@
 }
 //5-1,5-2 css
 /* --------------------------------------------------------------------------- */
+.page5-3 {
+  > ul {
+    @include center-width;
+    > li {
+      padding: 20px 0;
+      border-bottom: 1px dotted #ccc;
+      &:hover {
+        color: var(--main-color);
+      }
+      > a {
+        font-size: 1.2em;
+        font-weight: 600;
+      }
+      > ul {
+        margin-top: 10px;
+        display: none;
+        > li {
+          padding: 10px;
+          background-color: var(--sub-color);
+          > a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

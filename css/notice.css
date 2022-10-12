@@ -55,4 +55,31 @@
   background-color: var(--main-color);
 }
 
-/* --------------------------------------------------------------------------- *//*# sourceMappingURL=notice.css.map */
+/* --------------------------------------------------------------------------- */
+.page5-3 > ul {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page5-3 > ul > li {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+.page5-3 > ul > li:hover {
+  color: var(--main-color);
+}
+.page5-3 > ul > li > a {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.page5-3 > ul > li > ul {
+  margin-top: 10px;
+  display: none;
+}
+.page5-3 > ul > li > ul > li {
+  padding: 10px;
+  background-color: var(--sub-color);
+}
+.page5-3 > ul > li > ul > li > a {
+  color: #fff;
+}/*# sourceMappingURL=notice.css.map */
